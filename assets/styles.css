@@ -1540,3 +1540,13 @@ html[lang="fi"] .legal-en { display: none; }
   .plan-grid { grid-template-columns: 1fr; }
   .seat-grid { grid-template-columns: 1fr; }
 }
+
+.plan-old {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--ink-3);
+  text-decoration: line-through;
+  text-decoration-color: var(--bad);
+  text-decoration-thickness: 2px;
+  margin-right: 4px;
+}

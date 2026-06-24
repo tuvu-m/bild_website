@@ -37,58 +37,36 @@
 
 <main>
   <!-- HERO -->
-  <section class="hero bar" style="padding-bottom:30px">
-    <div class="max">
+  <section class="hero bar" style="padding-bottom:0">
+    <div class="max" style="max-width:680px;text-align:center;margin:0 auto">
       <div class="eyebrow"><span class="dot">/ </span>Contact us</div>
       <h1 class="h-hero">Get in touch.</h1>
-      <p class="lede" style="max-width:560px">Whether you're a contractor, a homeowner, press, or interested in joining the team, leave a message and we'll get back to you.</p>
+      <p class="lede" style="max-width:520px;margin-left:auto;margin-right:auto">Whether you're a contractor, a homeowner, press, or interested in joining the team, we'd love to hear from you.</p>
+      <a class="btn accent" href="mailto:hello@luju.fi?subject=Hello%20from%20bild.fi" style="margin-top:32px;font-size:17px;padding:16px 30px">Send us an email <span class="arr">→</span></a>
+      <p class="mono" style="font-size:12px;color:var(--ink-3);margin-top:16px">We read every message and usually reply within two business days.</p>
     </div>
   </section>
 
-  <!-- FORM -->
-  <section class="band-tint" style="margin-top:24px">
-    <div class="bar" style="padding-top:48px;padding-bottom:64px">
-    <div class="grid-2 g2-form">
-      <div class="form-card reveal">
-        <form id="contact-form">
-          <label>
-            <span class="flabel">Your email</span>
-            <input class="field" type="email" required placeholder="you@example.com">
-          </label>
-          <label>
-            <span class="flabel">I'm reaching out as</span>
-            <select class="field">
-              <option>Contractor</option>
-              <option>Homeowner</option>
-              <option>Press</option>
-              <option>Job applicant</option>
-              <option>Something else</option>
-            </select>
-          </label>
-          <label>
-            <span class="flabel">Message</span>
-            <textarea class="field" required rows="5" placeholder="Tell us what's on your mind…"></textarea>
-          </label>
-          <button type="submit" class="btn accent">Send message <span class="arr">→</span></button>
-        </form>
-        <div class="form-sent" id="form-sent" hidden>
-          <div class="k">Message sent</div>
-          <h3>Thanks, we'll be in touch.</h3>
-          <p>We read every message and usually reply within two business days.</p>
-          <button class="btn ghost" id="send-again">Send another message</button>
-        </div>
+  <!-- QUICK LINKS -->
+  <section class="band-tint" style="margin-top:56px">
+    <div class="bar" style="padding-top:48px;padding-bottom:56px">
+      <div class="grid-3 reveal">
+        <a class="beat" href="homeowners.html" style="cursor:pointer">
+          <h3>I'm a homeowner</h3>
+          <p>See how BILD keeps your home's history in one trusted record.</p>
+          <span class="mono" style="font-size:12.5px;color:var(--accent);margin-top:12px;display:inline-flex;align-items:center;gap:6px">Learn more <span class="aud-arr">→</span></span>
+        </a>
+        <a class="beat" href="contractors.html" style="cursor:pointer">
+          <h3>I'm a contractor</h3>
+          <p>Finish the job, let BILD write the report. See how it works.</p>
+          <span class="mono" style="font-size:12.5px;color:var(--accent);margin-top:12px;display:inline-flex;align-items:center;gap:6px">Learn more <span class="aud-arr">→</span></span>
+        </a>
+        <a class="beat" href="pricing.html" style="cursor:pointer">
+          <h3>I want to see pricing</h3>
+          <p>Simple plans starting from €96/mo per company. No per-seat fees.</p>
+          <span class="mono" style="font-size:12.5px;color:var(--accent);margin-top:12px;display:inline-flex;align-items:center;gap:6px">See plans <span class="aud-arr">→</span></span>
+        </a>
       </div>
-
-      <div class="reveal" style="padding-top:4px">
-        <div class="section-head">
-          <div class="eyebrow"><span class="dot">/ </span>Or reach us directly</div>
-          <h2>Luju Oy</h2>
-        </div>
-        <div style="margin-top:22px;max-width:360px">
-          <div class="kv"><span class="k">email</span><span class="v"><a href="mailto:hello@luju.fi">hello@luju.fi</a></span></div>
-        </div>
-      </div>
-    </div>
     </div>
   </section>
 </main>

@@ -153,23 +153,5 @@
       }
     }
 
-    /* ---------- contact form ---------- */
-    var form = document.querySelector("#contact-form");
-    if (form) {
-      var sent = document.querySelector("#form-sent");
-      form.addEventListener("submit", function (e) {
-        e.preventDefault();
-        form.hidden = true;
-        sent.hidden = false;
-      });
-      var again = document.querySelector("#send-again");
-      if (again) {
-        again.addEventListener("click", function () {
-          form.reset();
-          form.hidden = false;
-          sent.hidden = true;
-        });
-      }
-    }
   });
 })();
